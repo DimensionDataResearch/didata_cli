@@ -1,6 +1,15 @@
 Changelog
 =========
 
+changes with didata_cli 0.3.0
+-----------------------------
+
+general
+~~~~~~~
+
+- Changed ``DIDATA_USER`` to ``MCP_USER`` (consistent with other Dimension Data tools)
+- Changed ``DIDATA_PASSWORD`` to ``MCP_PASSWORD`` (consistent with other Dimension Data tools)
+
 changes with didata_cli 0.2.4
 -----------------------------
 

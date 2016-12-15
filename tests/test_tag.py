@@ -14,8 +14,8 @@ import os
 class DimensionDataCLITestCase(unittest.TestCase):
     def setUp(self):
         self.runner = CliRunner()
-        os.environ["DIDATA_USER"] = 'fakeuser'
-        os.environ["DIDATA_PASSWORD"] = 'fakepass'
+        os.environ["MCP_USER"] = 'fakeuser'
+        os.environ["MCP_PASSWORD"] = 'fakepass'
 
     def test_tag_help(self, node_client):
         result = self.runner.invoke(cli, ['tag'], catch_exceptions=False)
