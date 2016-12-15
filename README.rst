@@ -34,8 +34,8 @@ To see all the commands::
 
 The easiest way to start using the CLI is to export environment variables for username and password::
 
-    export MCP_USER='cloud_user'
-    export MCP_PASSWORD='cloud_password'
+    export DIDATA_USER='cloud_user'
+    export DIDATA_PASSWORD='cloud_password'
 
 
 You may also want to specify a region (Default is dd-na)::

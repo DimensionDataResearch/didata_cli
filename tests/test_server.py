@@ -15,8 +15,8 @@ import json
 class DimensionDataCLITestCase(unittest.TestCase):
     def setUp(self):
         self.runner = CliRunner()
-        os.environ["MCP_USER"] = 'fakeuser'
-        os.environ["MCP_PASSWORD"] = 'fakepass'
+        os.environ["DIDATA_USER"] = 'fakeuser'
+        os.environ["DIDATA_PASSWORD"] = 'fakepass'
         os.environ["DIDATA_OUTPUTTYPE"] = 'pretty'
 
     def test_server_help(self, node_client):

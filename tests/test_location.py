@@ -12,8 +12,8 @@ import os
 class DimensionDataCLITestCase(unittest.TestCase):
     def setUp(self):
         self.runner = CliRunner()
-        os.environ["MCP_USER"] = 'fakeuser'
-        os.environ["MCP_PASSWORD"] = 'fakepass'
+        os.environ["DIDATA_USER"] = 'fakeuser'
+        os.environ["DIDATA_PASSWORD"] = 'fakepass'
 
     def test_location_help(self, node_client):
         result = self.runner.invoke(cli, ['location'], catch_exceptions=False)

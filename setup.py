@@ -34,7 +34,7 @@ setup(
     license='Apache License (2.0)',
     url="https://www.dimensiondata.com/",
     name="didata_cli",
-    version="0.3.0",
+    version="0.2.4",
     packages=find_packages(exclude=["contrib", "docs", "tests*", "tasks", "venv"]),
     install_requires=requires,
     setup_requires=[],
